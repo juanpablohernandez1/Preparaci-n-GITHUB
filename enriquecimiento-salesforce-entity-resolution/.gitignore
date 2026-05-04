@@ -1,0 +1,27 @@
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.ppk
+*.pfx
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data artifacts (do not commit real exports)
+data/raw/**
+data/processed/**
+data/output/**
+*.xlsx
+*.csv
+*.parquet
+
+# OS
+Thumbs.db
+Desktop.ini
